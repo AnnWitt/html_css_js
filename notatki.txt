@@ -5,3 +5,8 @@ https://pagespeed.web.dev/report?url=https%3A%2F%2Fwp.pl%2F
 https://www.w3.org/Translations
 Can I use - czy zadziala na wszystkich przegladarkach https://caniuse.com/flexbox
 Browserstack - 
+
+
+splaszczenie commitow (doczytaj - laczenie kilku commitow w jeden)
+
+
