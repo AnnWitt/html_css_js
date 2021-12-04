@@ -25,3 +25,7 @@ https://fonts.google.com/
 
 open with lifeserver aby nie musiec odswiezac
 
+
+kaskady znacznikóqw
+ id>atrybut, klasa>nazwa elementu
+
