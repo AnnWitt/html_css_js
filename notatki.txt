@@ -9,4 +9,19 @@ Browserstack -
 
 splaszczenie commitow (doczytaj - laczenie kilku commitow w jeden)
 
+https://eloquentjavascript.net/Eloquent_JavaScript.pdf
+1:17
+https://css-tricks.com/snippets/css/complete-guide-grid/
+
+
+listy, nienumerowane i nienumerowane
+
+<ul></ul> nienumerowana
+<ol></ol> numerowana
+
+<li> list itemy
+
+https://fonts.google.com/
+
+open with lifeserver aby nie musiec odswiezac
 

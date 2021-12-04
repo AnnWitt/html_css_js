@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <h1>Kontakt</h1>
+        <section>
+            <!-- atrybury action zasob sieciowi, skrypt php, api -->
+            <!-- method /get lub post -->
+            <form action="" method="get">
+                <label for="imie">
+                    <!-- dzieki temu formatka sie aktywuje po samym kliknieciu na tekst -->
+                    Imie: <input type="text" id="imie" name="nameInput">
+                </label>
+                <br><br>
+                <label for="nazwisko">
+                    <!-- dzieki temu formatka sie aktywuje po samym kliknieciu na tekst -->
+                    Nazwisko: <input type="text" id="nazwisko" name="nazwiskoInput">
+                </label>
+                <!-- wysylka danych -->
+                psw: <input type="password" name="haslo">
+
+                <input type="submit" value="wyślij w diabły" />
+                <br><br>
+                Imixxxe: <input type="text" placeholder="jakis tekst">
+
+            </form>
+            <form action="" method="post">
+                psw2: <input type="password" name="haslo">
+                <input type="submit" value="nie wyslesz w diably:) " />
+
+                <br><br>
+                <div>
+                    <label for="rock">
+                        rock: <input type="checkbox" name="rock" id="rock">
+                    </label>
+                    <label for="pop">
+                        pop: <input type="checkbox" name="pop" id="pop">
+                    </label>
+                    <label for="jazz">
+                        jazz: <input type="checkbox" name="jazz" id="jazz">
+                    </label>
+                    <label for="classic">
+                        classic <input type="checkbox" name="classic" id="classic">
+                    </label>
+                </div>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <div>
+                    <label for="coffee">
+                        coffee <input type="radio" name="coffee" id="coffee">
+                    </label>
+                    <label for="tea">
+                        tea <input type="radio" name="tea" id="tea">
+                    </label>
+                </div>
+                <br>
+                aby dzialalo
+                <br>
+                <div>
+                    <!-- oba po drinkl aby sie zmienialo miedzy nimi -->
+                    <label for="drink">
+                        coffee <input type="radio" name="drink" id="coffee" value="coffee">
+                    </label>
+                    <label for="tea">
+                        tea <input type="radio" name="drink" id="tea" value="tea">
+                    </label>
+
+                    <br>
+
+                    <!-- wymagane -->
+                    <label for="email">
+                        email <input type="email" name="email" id="any" required>
+                    </label>
+                    ddddd <input type="number" min="10" max="30">
+                </div>
+
+            </form>
+
+        </section>
+    </main>
+</body>
+
+</html>
