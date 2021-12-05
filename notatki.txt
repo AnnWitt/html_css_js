@@ -443,3 +443,33 @@ jezeli w html damy np 20px to to mozna
 i wtedy w innych mozna np 2,5rem
 root element font-size
 
+
+position absolute 
+z index -1 pod, +2 nad, wyciagamy element poza flow
+
+
+position fixed przewijamy strone a ten element section
+position relative element zmienia punkt odniesienia 
+i pozycjonujemy sie wzgledem najblizszego rodzica
+sii.pl obejrzyj sobie
+
+-------------------------------------------
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+
+Responsive images -- np mobile first, desktop first itd
+
+media query, ktory css do ktorego ekranu (inny dla telefonu inny dla lapka)
+320, 768,1200,1920 px
+
+jak mobile first
+
+biblioteki https://sass-lang.com/
+
+<picture>
+  <source media="(max-width: 799px)" srcset="elva-480w-close-portrait.jpg">
+  <source media="(min-width: 800px)" srcset="elva-800w.jpg">
+  <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva">
+</picture>
+
+z przyvinaniem obrazka tj jezeli taka rozdzielnosc to ładuje sie jeden a jak inna do drugi
