@@ -28,4 +28,14 @@ open with lifeserver aby nie musiec odswiezac
 
 kaskady znacznikóqw
  id>atrybut, klasa>nazwa elementu
+id powinno byc jedno na stronę
 
+      klasa                  id
+html bottom               bottom 
+css .bottom               #bottom
+
+border box -> jak chcemy ramke np 1000px i wtedy ramka nie jest w to wliczana. Inaczej by byla
+box sizin: border boxdomyslnie jest content box
+
+ In CSS, a margin is the space around an element's border, while padding is the 
+ space between an element's border and the element's content. Put ...

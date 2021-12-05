@@ -1,0 +1,121 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0C2840;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #A3BFBF;
+    font-weight: 700;
+}
+
+/* form */
+
+form#contactForm {
+    width: 50%;
+}
+
+form#contactForm >label> span {
+    font-weight: 700;
+    margin-bottom: 2px;
+    
+    /* margin-top: 20px; */
+}
+
+form#contactForm > label {
+    display: flex;
+    flex-direction: column;
+    
+    /* margin-top: 20px; */
+}
+
+/* parametry przycisku */
+
+form#contactForm > div, form#contactForm>label {
+    margin-top: 20;
+}
+
+form#contactForm input[type=submit] {
+    /* spacja ma znaczenie */
+color: beige;
+text-transform: uppercase;
+background-color: black;
+}
+
+form#contactForm > div > label >span {
+    font-weight: 700;
+}
+
+
+
+/* form#contactForm > label */
+/* form > label */
+
+/* form#contactForm label */
+/* form > div > div > p > span > label */
+
+/* form - end */
+
+footer.bottom {
+    /* ramka, solid - ciągła linia, dotted - kropkowana, dashed - przerywana*/
+    border: 1px solid #F2E6CE;
+
+    /* odstępy wewnętrzne */
+    padding: 10px 5px;
+
+    /* wyrównanie tekstu - left, right, center, justify */
+    text-align: center;
+
+    /* margines - od góry */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    /* shorthand margin - 20px góra/dół, 10px lewo/prawo */
+    margin: 20px 10px;
+
+
+    /* margin - zgodnie z ruchem wskazówek zegara - góra/prawo/dół/lewo */
+    margin: 20px 5px 20px 10px;
+
+    /* margin - 20px góra, 10px lewo/prawo, 5px od dołu */
+    margin: 20px 10px 5px;
+
+}
+
+/* 
+
+    <footer class="bottom highlited main">
+        <p>...</p>
+    </footer>
+
+    <article id="first">
+        <p>....</p>
+    </article>
+            
+
+            klasa           id
+    HTML    bottom          first
+    CSS     .bottom         #first
+*/
+
+
+
+/* 
+.paragraph {
+    color: green;
+}
+
+p {
+    color: purple;
+}
+
+#main {
+    color: red;
+}
+
+#test #main {
+    color: blue;
+} */

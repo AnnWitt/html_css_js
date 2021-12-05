@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <!-- li - element listy -->
+                <li><a href="/html5/">Strona główna</a></li>
+                <li><a href="omnie.html">O mnie</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Kontakt</h1>
+        <section>
+            <form action="" method="post" id="contactForm">
+                <label for="imie">
+                    <span>Imie:</span>
+                    <input type="text" id="imie" name="nameInput" placeholder="Podaj swoje imie" />
+                </label>
+
+                <label for="nazwisko">
+                    <span>Nazwisko:</span>
+                    <input type="text" id="nazwisko" name="lastNameInput" required />
+                </label>
+
+                <label for="email">
+                    <span>Email:</span>
+                    <input type="email" id="email" name="email" required />
+                </label>
+
+                <!-- <input type="number" name="" id="" max="99" min="18" required> -->
+
+                <div id="musicSection">
+                    <label for="rock">
+                        <input type="checkbox" name="rock" id="rock"> <span>Rock</span>
+                    </label>
+
+                    <label for="pop">
+                        <input type="checkbox" name="pop" id="pop"> <span>Pop</span>
+                    </label>
+
+                    <label for="jazz">
+                        <input type="checkbox" name="jazz" id="jazz"> <span>Jazz</span>
+                    </label>
+                </div>
+
+
+                <div id="drinkSection">
+                    <label for="coffee">
+                        <span>Kawa</span> <input type="radio" name="drink" id="coffee" value="coffee">
+                    </label>
+                    <label for="tea">
+                        <span>Herbata</span> <input type="radio" name="drink" id="tea" value="tea">
+                    </label>
+                </div>
+
+                <label for="msg">
+                    <span>Wiadomość</span>
+                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Twoja wiadomość" required></textarea>
+                </label>
+
+                <input type="submit" value="Wyślij" />
+            </form>
+        </section>
+    </main>
+
+    <footer class="bottom">
+        &copy;opy by JB
+    </footer>
+
+</body>
+
+</html>

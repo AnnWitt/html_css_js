@@ -16,6 +16,7 @@ font-weight: 600;
 /* 
 6. Sekcji footer dodaj klase .bottom i dodaj jej ramkę w kolorze #F2E6CE, ustaw jej padding na
 10px z gory i dołu oraz 5px z prawej i lewej strony, */
+/* kropki wskazuja na to co w class */
 
 .bottom {
     color: crimson;
@@ -29,6 +30,40 @@ font-weight: 600;
 /* #main {
     background-color: brown !important;
 } */
+
+/* 7. Do sekcji header dodaj klasę .head oraz nadaj jej padding o wartości 20px. */
+header.head {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* zgornie z ruchem wskazowek zegara  gora,prawo,dol, lea*/
+    margin: 20px 5 px 20px 10 px;
+/* góra/dół   */
+    margin: 20px 5px;
+
+    /* gora lewo/prawo doly */
+    margin: 20px 5 px 10px
+
+    /* nadpisuje kolejne - nie dodaje, analogicznie padding */
+
+    
+}
+
+
+form#contactForm {
+    width: 50%;
+}
+
+
+/* form#contactForm >label  -  zadziala tylko na bezposrednim dziecku (nie zadziala dla labela w labelu */
+
+/* kazdy label */
+form#contactForm label {
+    display :flex;
+    flex-direction: column;
+    }
+
 
 
 

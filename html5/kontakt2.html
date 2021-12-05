@@ -10,75 +10,80 @@
 </head>
 
 <body>
-    <header><div class="head">head w heaher</div></header>
-    <div class="head">head w heaher</div>   <main>
+    <header>
+        <div class="head">head w heaher</div>
+    </header>
+    <div class="head">head w heaher</div>
+    <main>
         <h1 style="color: darkseagreen;">Kontakt</h1>
         <section>
             <!-- atrybury action zasob sieciowi, skrypt php, api -->
             <!-- method /get lub post -->
-            <form action="" method="get" id="dupa" style="background-color: blanchedalmond;">
+            <form action="" method="get" id="contactForm" style="background-color:brown">
                 <label for="imie">
                     <!-- dzieki temu formatka sie aktywuje po samym kliknieciu na tekst -->
-                    Imie: <input type="text" id="imie" name="nameInput">
+                    <span>Imie</span>
+                    <input type="text" id="imie" name="nameInput">
                 </label>
-                <br><br>
+
                 <label for="nazwisko">
                     <!-- dzieki temu formatka sie aktywuje po samym kliknieciu na tekst -->
-                    Nazwisko: <input type="text" id="nazwisko" name="nazwiskoInput">
+                    <span>Nazwisko:</span> <input type="text" id="nazwisko" name="nazwiskoInput">
                 </label>
                 <!-- wysylka danych -->
-                psw: <input type="password" name="haslo">
+                <span>psw:</span> <input type="password" name="haslo">
 
                 <input type="submit" value="wyślij w diabły" />
-                <br><br>
-                Imixxxe: <input type="text" placeholder="jakis tekst">
+
+                <span>Imixxxe:</span> <input type="text" placeholder="jakis tekst">
 
             </form>
             <form action="" method="post">
-                psw2: <input type="password" name="haslo">
+                <span>psw2:</span> <input type="password" name="haslo">
                 <input type="submit" value="nie wyslesz w diably:) " />
 
-                <br><br>
-                <div>
+
+                <div id="musickSection">
                     <label for="rock">
-                        rock: <input type="checkbox" name="rock" id="rock">
+                        <span>rock:</span> <input type="checkbox" name="rock" id="rock">
                     </label>
                     <label for="pop">
-                        pop: <input type="checkbox" name="pop" id="pop">
+                        <span>pop:</span> <input type="checkbox" name="pop" id="pop">
                     </label>
                     <label for="jazz">
-                        jazz: <input type="checkbox" name="jazz" id="jazz">
+                        <span>jazz:</span> <input type="checkbox" name="jazz" id="jazz">
                     </label>
                     <label for="classic">
-                        classic <input type="checkbox" name="classic" id="classic">
+                        <span>classic</span> <input type="checkbox" name="classic" id="classic">
                     </label>
                 </div>
                 <textarea name="" id="" cols="30" rows="10"></textarea>
-                <div>
+
+                <div id="drinkSection1">
                     <label for="coffee">
-                        coffee <input type="radio" name="coffee" id="coffee">
+                        <span>coffee</span> <input type="radio" name="coffee" id="coffee">
                     </label>
                     <label for="tea">
-                        tea <input type="radio" name="tea" id="tea">
+                        <span>tea</span> <input type="radio" name="tea" id="tea">
                     </label>
                 </div>
-                <br>
+
                 aby dzialalo
-                <br>
-                <div>
+
+                <div id="DrinkSection2">
                     <!-- oba po drinkl aby sie zmienialo miedzy nimi -->
                     <label for="drink">
-                        coffee <input type="radio" name="drink" id="coffee" value="coffee">
+                        <span>coffee</span> <input type="radio" name="drink" id="coffee" value="coffee">
                     </label>
                     <label for="tea">
-                        tea <input type="radio" name="drink" id="tea" value="tea">
+                        <span>tea</span> <input type="radio" name="drink" id="tea" value="tea">
                     </label>
 
-                    <br>
+
 
                     <!-- wymagane -->
                     <label for="email">
-                        email <input type="email" name="email" id="any" required>
+                        <span>ddddd</span> <input type="email" name="email" id="any" required>
                     </label>
                     ddddd <input type="number" min="10" max="30">
                 </div>
